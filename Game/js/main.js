@@ -8,8 +8,8 @@
 var RPGGame = RPGGame || {};
 
 // Set up viewport based on window x/y sizes. Displayed game area should be square and auto scale to viewport size.
-var viewPortX = innerWidth;
-var viewPortY = innerHeight;
+var viewPortX = window.screen.availWidth;
+var viewPortY = window.screen.availHeight;
 
 var displayedX = 0;
 var displayedY = 0;
@@ -40,7 +40,8 @@ RPGGame.game.state.start('boot');
 
 
 
-// Example code for reference, to be deleted...
+// Example code for reference
+
 /**
 *{
 *    

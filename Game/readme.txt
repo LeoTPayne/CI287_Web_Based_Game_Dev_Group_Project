@@ -1,10 +1,10 @@
 CI287 Web Based Game Development - Group Project Year 2 (2017)
 
-Game Name = RPG Game
+Game Name = RPG Game (working title)
 
 Game developed using Phaser Community Edition v.2.7.5
 
-Developed by: Alan, ??? & Martin
+Developed by: Alan, Leo & Martin
 
 
 
