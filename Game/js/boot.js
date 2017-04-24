@@ -20,6 +20,7 @@ RPGGame.boot.prototype = {
         // Activate Phaser ARCADE physics
         this.game.physics.startSystem(Phaser.Physics.ARCADE);
         
+        // Calls 'preload' state
         this.state.start('preload');
         
     }

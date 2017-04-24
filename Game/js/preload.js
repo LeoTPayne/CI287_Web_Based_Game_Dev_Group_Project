@@ -6,9 +6,9 @@ RPGGame.preload = function(){};
 
 RPGGame.preload.prototype = {
     
+    // Load game assets
     preload: function(){
         
-        // Load game assets
         // Assets to be added here...
         // example code
         // this.load.image('rock', 'assets/images/rock.png');
@@ -19,6 +19,7 @@ RPGGame.preload.prototype = {
     
     create: function(){
         
+        // Calls 'MainMenuScreen' state
         this.state.start('MainMenuScreen');
         
     }
